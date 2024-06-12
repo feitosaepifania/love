@@ -4,7 +4,7 @@ body {
     justify-content: center;
     height: 100vh;
 
-    background-color: darkred;
+    background-color: #fff;
 }
 
 .card {
@@ -46,12 +46,12 @@ body {
 }
 
 .btn-yes {
-    background-color: #9AFF9A;
+    background-color: #FF4040;
+    color: #fff
 }
 
 .btn-no {
-    background-color: #FF4040;
-    color: #fff;
+    background-color: #9AFF9A;
 }
 
 .answer {
@@ -59,7 +59,7 @@ body {
 }
 
 .answer > p {
-    font-size: 30px;
+    font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     
