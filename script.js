@@ -1,7 +1,7 @@
 let card = document.getElementById("card");
 
-// Exibir a mensagem caso seja selecionado o 'sim'
-document.querySelector("#yes").addEventListener("click", function () {
+// Exibir a mensagem caso seja selecionado o 'não'
+document.querySelector("#no").addEventListener("click", function () {
   let question = document.getElementById("question");
   let message = document.getElementById("answer");
 
@@ -11,8 +11,8 @@ document.querySelector("#yes").addEventListener("click", function () {
   message.style.display = "flex";
 });
 
-// Movimento aleatório do botão 'não'
-document.querySelector("#no").addEventListener("mouseover", function () {
+// Movimento aleatório do botão 'sim'
+document.querySelector("#yes").addEventListener("mouseover", function () {
   let width = window.innerWidth - 50;
   let height = window.innerHeight - 50;
 
